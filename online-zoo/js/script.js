@@ -1,13 +1,6 @@
 //=== Page navigation ============================================================================
 
-//--- set prefix for paths to make all pages work equal on both localhost and gh-pages
-let pathPrefix = "";
 
-if (window.location.hostname === "localhost") {
-  pathPrefix = "";
-} else {
-  pathPrefix = "gaspid-JSFE2021Q1/online-zoo";
-}
 
 //--- gets navigation parent and items (links)
 const navPanel = document.querySelector(".header__nav-list");
