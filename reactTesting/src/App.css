@@ -1,0 +1,49 @@
+.cardList {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Flex {
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+
+}
+.PhotosCard{
+  border: solid 1px #ccc;
+  border-radius:10px;
+  padding:30px;
+  height:330px;
+  width:150px;
+  margin:10px;
+
+}
+.PhotoTittle{
+
+}
+button{
+  background-color:#fff;
+  border:2px solid #ccc;
+  border-radius:5px;
+  padding:5px;
+  color:#c0cac7
+}
+.modal{
+  height:100vh;
+  width:100vh;
+  position:fixed;
+  background-color:rgba(0,0,0,0.1);
+  top:0;
+  left:0;
+
+}
+.input{
+margin-top:100px;
+margin-bottom:60px;
+display: flex;
+justify-content: center
+}
+.id{
+  text-align: center;
+  color: #c0cbd0;
+}
